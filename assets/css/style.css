@@ -1,0 +1,481 @@
+section,nav,article,footer,header
+{
+	display:block;
+}
+body {
+	font: 300 14px/1.8 'Raleway', sans-serif;
+	color: #666;
+	overflow-x: hidden;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+/* ---------------------------------------------- /*
+ * General Styles
+/* ---------------------------------------------- */
+
+.pfblock {
+	padding: 120px 0 100px;
+}
+
+.pfblock-gray {
+	background: #f5f5f5;
+}
+
+/* ---------------------------------------------- /*
+ * Home
+/* ---------------------------------------------- */
+
+#home {
+	background: url(../images/cover.jpg);
+	background-color: #222;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+		 -o-background-size: cover;
+			background-size: cover;
+	padding: 0;
+}
+
+.home-overlay {
+    background-color: rgba(44, 62, 80, 0.3);
+    background-image: url("../images/pattern.png");
+    background-repeat: repeat;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.intro {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 0;
+	text-align: center;
+	-webkit-transform: translate(0%, -50%);
+	   -moz-transform: translate(0%, -50%);
+		-ms-transform: translate(0%, -50%);
+		 -o-transform: translate(0%, -50%);
+			transform: translate(0%, -50%);
+	padding: 0 15px;
+}
+
+.intro h1 img{
+	margin-top: -50px;
+	width: 500px;
+	height: 100px;
+}
+.start0 img{
+	margin-top: 120px;
+	margin-bottom: 100px;
+	width: 150px;
+	height: 190px;
+}
+.start1 {
+	font-family: Raleway, "Times New Roman", Times, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	text-transform: none;
+	margin-top: 50px;
+	margin-bottom: 200px;
+	color: rgb(78,191,207);
+}
+/* ---------------------------------------------- /*
+ * Navigation
+/* ---------------------------------------------- */
+
+.header {
+	border-bottom: 1px solid #f5f5f5;
+	position: relative;
+	width: 100%;
+	z-index: 998;
+	border-bottom: 1px #318075 solid;
+}
+
+.navbar-custom {
+	border: 0;
+	border-radius: 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-family: Raleway, sans-serif;
+}
+
+.navbar-custom,
+.navbar-custom .dropdown-menu {
+	background: #fff;
+	padding: 0;
+}
+
+.navbar-custom .navbar-nav > li > a,
+.navbar-custom .navbar-nav .dropdown-menu > li > a {
+	font-size: 16px;
+	letter-spacing: 3px;
+	color: #222;
+}
+
+.navbar-custom .nav li.active,
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .navbar-nav > li.active a {
+	background: none;
+	outline: 0;
+	color: #04a3b0;
+	text-decoration: underline;
+	background: rgba(14, 250, 197, 0.05);
+}
+
+.navbar-custom .navbar-brand {
+	font-weight: 700;
+	font-size: 22px;
+    font-family: Lobster, cursive;
+	margin-left: -25px;
+}
+.navbar-custom .navbar-brand img
+{
+	width: 50px;
+	height: 50px;
+	margin-top: -12px;
+	float: left;
+}
+.navbar-custom .navbar-brand input
+{
+	float: left;
+	width: 110px;
+	height: 30px;
+	border: 1px solid #37a771;
+	border-radius: 2px;
+	font-size: 14px;
+}
+
+.navbar-custom .dropdown-menu {
+	border: 0;
+	border-top: 2px solid #E7746F;
+	border-radius: 0;
+}
+
+.navbar-custom .dropdown-menu > li > a {
+	padding: 10px 20px;
+}
+
+.navbar-custom .nav .open > a,
+.navbar-custom .dropdown-menu > li > a:hover,
+.navbar-custom .dropdown-menu > li > a:focus {
+	background: #f5f5f5;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+	background: #222;
+}
+
+
+/* ---------------------------------------------- /*
+ * Servise
+/* ---------------------------------------------- */
+
+#services .container
+{
+	margin-top: -30px;
+}
+.iconbox {
+	background: #fff;
+	border-bottom: 1px solid #d4d4d4;
+	text-align: center;
+	padding: 40px 20px;
+	height: 210px;
+}
+.iconbox img
+{
+	margin-top: -25px;
+	width: 150px;
+}
+.iconbox:hover img
+{
+	cursor: pointer;
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(0.8);
+	transition-duration: 0.5s;
+	opacity: 0.5;
+}
+.iconbox:hover
+{
+	background: rgba(209,212,213,0.3);
+}
+.iconbox-icon {
+	margin: 0 0 15px;
+	font-size: 32px;
+	color: #222;
+}
+
+.iconbox-title {
+	margin-top: 15px;
+	padding: 0;
+	font-size: 16px;
+	letter-spacing: 2px;
+	font-weight: normal;
+}
+
+/* ---------------------------------------------- /*
+ * College
+/* ---------------------------------------------- */
+
+#college
+{
+	background: white;
+	margin-top: -20px;
+}
+#college .title_box
+{
+	text-align: center;
+}
+#college .title_box h2
+{
+	font-weight: bold;
+	margin-bottom: 80px;
+}
+#college .faded
+{
+	display: none;
+}
+#college .college-box
+{
+	text-align: center;
+}
+#college .college-box a
+{
+	text-decoration: none;
+	color: #767676;
+	font-weight: normal;
+}
+#college .college-box a:hover
+{
+	text-decoration: underline;
+	color: #04a3b0;
+}
+.college-btn
+{
+	text-align: center;
+}
+.college-btn img:hover
+{
+	cursor: pointer;
+}
+
+/* ---------------------------------------------- /*
+ *  News
+/* ---------------------------------------------- */
+
+#news
+{
+	margin-top: 65px;
+	text-align: center;
+}
+#news .title_box h2
+{
+	font-weight: bold;
+    margin-bottom: 75px;
+}
+#news .news-pic img
+{
+	border-radius: 2px;
+}
+#news .news-pic img:hover
+{
+	opacity: 0.8;
+	border: 2px rgba(111,111,111,0.4) solid;
+}
+
+#news .news-text
+{
+	margin-top: 20px;
+}
+#news .news-text a
+{
+	color: #6d6d6d;
+}
+
+/* ---------------------------------------------- /*
+ * Public service
+/* ---------------------------------------------- */
+
+#public-service
+{
+	margin-top: 60px;
+	text-align: center;
+	background: #f5f5f5;
+}
+#public-service .title_box
+{
+	margin-bottom: 40px;
+}
+#public-service .title_box h2
+{
+	font-weight: bold;
+
+}
+#public-service .public-service-box img
+{
+	width: 80px;
+	height: 80px;
+	margin-bottom: 20px;
+}
+#public-service .public-service-box .p-service
+{
+	margin-bottom: 20px;
+	border: 1px solid white;
+}
+#public-service .public-service-box a
+{
+	color: #848484;
+}
+#public-service .public-service-box .p-service:hover
+{
+	background: #ffffff;
+    text-decoration: underline;
+}
+#public-service .public-service-box .p-service:hover img
+{
+	-webkit-transform: scale(0.8);
+	-moz-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	transform: scale(0.8);
+	transition-duration: 0.5s;
+}
+
+ /* ---------------------------------------------- /*
+  *  Contact us
+ /* ---------------------------------------------- */
+
+#contact
+{
+	margin-top: 40px ;
+}
+#contact .title_box
+{
+	width: 100%;
+	text-align: center;
+}
+#contact .title_box h2
+{
+	font-weight: bold;
+	margin-bottom: 55px;
+}
+#contact .pic-box
+{
+	float: left;
+}
+
+#contact .contact-box
+{
+	float: right;
+
+}
+#contact .pic-box img
+{
+	width: 200px;
+	height: 200px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+
+footer
+{
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+	height: 80px;
+	background: rgb(52, 135, 130);
+}
+footer .footer-text p
+{
+	margin-top: 40px;
+	color: white;
+	margin-bottom: 20px;
+}
+	/* ---------------------------------------------- /*
+     * Scroll to top
+    /* ---------------------------------------------- */
+
+.scroll-up {
+	position: fixed;
+	display: none;
+	z-index: 999;
+	bottom: 2em;
+	right: 2em;
+}
+
+.scroll-up a {
+	background-color: rgba(135, 135, 135, 0.5);
+	display: block;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.scroll-up a:hover,
+.scroll-up a:active {
+	background-color: rgba(235, 235, 235, .8);
+	color: #e7746f;
+}
+
+/* ---------------------------------------------- /*
+ *Scroll Down
+/* ---------------------------------------------- */
+
+.scroll-down {
+	position: absolute;
+	left: 50%;
+	bottom: 40px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	margin-left: -15px;
+	display: block;
+	z-index: 10;
+    text-align: center;
+}
+
+.scroll-down span{
+    position: relative;
+    color: #fff;
+    -webkit-animation-name: drop;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;
+	animation-name: drop;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+}
+
+@-webkit-keyframes drop	{
+	0%   { top:0;  opacity: 0;}
+	30%  { top:10px; opacity: 1;}
+	100% { top:25px; opacity: 0;}
+}
+
+@keyframes drop	{
+	0%   { top:0;  opacity: 0;}
+	30%  { top:10px; opacity: 1;}
+	100% { top:25px; opacity: 0;}
+}
+
